@@ -1,0 +1,79 @@
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Special+Elite&display=swap');
+
+body {
+    background-image: url("playstation-pattern.png");
+    font-family: 'Special Elite', cursive;
+}
+
+.clear {
+    clear: both;
+}
+
+.navbar {
+    color: orange;
+    background-color: #483D8B;
+}
+
+.header {
+    font-size: 125px;
+    margin-left: 75px;
+}
+
+.sub-header {
+    font-size: 75px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.container {
+    background-color: green;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+    grid-gap: 50px;
+    align-items: stretch;
+}
+
+.grid img {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+}
+
+.game-covers {
+    height: 750px;
+    width: 750px;
+    margin-left: 75px;
+}
+
+
+h1 {
+    font-size: 150px;
+    text-align: center;
+    margin-left: 75px;
+}
+
+p {
+    font-size: 100px;
+    font-family: Merriweather, sans-serif;
+    margin-left: 75px;
+    text-align: center;
+}
+
+li {
+    font-size: 75px;
+    font-family: Merriweather, sans-serif;
+    margin-left: 175px;
+}
+
+.list {
+    text-align: left;
+}

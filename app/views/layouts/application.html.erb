@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>GreatestGames</title>
+
+<head>
+    <title>TheGreatestGames</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+</head>
 
-  <body>
+<body>
+    <header class="navbar navbar-expand flex-column flex-md-row bd-navbar">
+        <div class="header">
+            THE GREATEST GAMES!
+        </div>
+    </header>
+
+    <br class="clear" />
+
     <%= yield %>
-  </body>
+</body>
+
 </html>
