@@ -31,14 +31,10 @@ body {
     width: 150px;
 }
 
-.container {
-    background-color: green;
-}
-
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 15px;
+    grid-gap: 10px;
     align-items: stretch;
 }
 
@@ -46,6 +42,12 @@ body {
     border: 1px solid #ccc;
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
     max-width: 100%;
+}
+
+.img-container {
+    padding-left: 5px;
+    display: inline-block;
+    margin-left: 15px;
 }
 
 .game-covers {
@@ -64,13 +66,22 @@ h1 {
 p {
     font-size: 20px;
     font-family: Merriweather, sans-serif;
-    text-align: center;
     margin-left: 15px;
 }
 
 li {
     font-size: 15px;
     font-family: Merriweather, sans-serif;
+    margin-left: 15px;
+}
+
+
+small {
+    font-size: 20px;
+    font-family: Merriweather, sans-serif;
+    font-weight: bold;
+    display: grid;
+    text-align: left;
     margin-left: 15px;
 }
 
